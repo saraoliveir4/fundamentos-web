@@ -1,10 +1,10 @@
 /*Estilos da página index.html*/
 
-/*Sintax da class = .p1
-Sintax do id = #p1*/
+/*Sintaxe da class = .p1
+Sintaxe do id = #p1*/
 
 body {
-    background-image: url(./assets/img/fundo.jpg);
+    background-image: url(../img/fundo.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
