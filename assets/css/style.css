@@ -84,7 +84,6 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -94,10 +93,10 @@ p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1100px;
+    margin: auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -109,8 +108,8 @@ p {
 
 #menu_topicos li {
     display: inline;
-    padding: 30px;
-    margin: auto;
+    padding: 20px;
+    text-align: center;
 }
 
 #menu_topicos li a {
@@ -128,7 +127,7 @@ p {
 }
 
 .question {
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 .question label {
