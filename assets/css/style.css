@@ -13,22 +13,27 @@ body {
     font-family: sans-serif;
 }
 
-#menu li {
-    display: inline;
-    padding: 15px;
-    background-color: #fff;
+nav {
+    background-color: coral;
+    padding: 10px;
+    color: blue;
+    /*Cor do link depois que clica nele*/
+    text-align: center;
     border-radius: 4px;
-    cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#menu li a {
+nav a {
     text-decoration: none;
-    color: black;
-    font-size: 17px;
+    color: white;
+    /*Cor do texto*/
+    margin: 15px;
+    /*Espaço entre os links*/
+    font-size: 20px;
+    font-weight: bold;
 }
 
-#menu li a:hover {
+nav a:hover {
     color: grey;
 }
 
@@ -37,13 +42,24 @@ body {
 }
 
 h1 {
+    /*Para adicionar uma linha/borda abaixo -> border-bottom: 2px solid #007bff;*/
     color: coral;
     text-align: center;
+    padding: 30px;
+    font-size: 50px;
 }
 
 h2 {
     color: coral;
     text-align: center;
+}
+
+.back_titulo {
+    color: white;
+    background-color: coral;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -94,7 +110,7 @@ p {
 #menu_topicos li {
     display: inline;
     padding: 30px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #menu_topicos li a {
