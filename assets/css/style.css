@@ -1,18 +1,175 @@
 /*Estilos da página index.html*/
 
-/*Sintaxe da class = .p1
-Sintaxe do id = #p1*/
+/*
+Sintaxe da class = .p1
+Sintaxe do id = #p1
+*/
 
 body {
     background-image: url(../img/fundo.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
 }
 
 #menu li {
     display: inline;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+#menu li a:hover {
+    color: grey;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+}
+
+h2 {
+    color: coral;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wh {
+    width: 650px;
+    height: 400px;
+}
+
+#menu_topicos li {
+    display: inline;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#menu_topicos li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu_topicos li a:hover {
+    color: grey;
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.question label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.question input[type="text"],
+.question input[type="email"],
+.question textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.question button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: coral;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.question button:hover {
+    background-color: rgb(252, 184, 159);
+}
+
+#voltar_topo a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#voltar_topo a:hover {
+    color: grey;
+}
 
 /*Estilos da página caracteristicas.html*/
+
+#topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
