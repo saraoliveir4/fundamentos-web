@@ -6,185 +6,185 @@ Sintaxe do id = #p1
 */
 
 body {
-    background-image: url(../img/fundo.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: sans-serif;
+  background-image: url(../img/fundo.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
 }
 
 nav {
-    background-color: coral;
-    padding: 10px;
-    color: blue;
-    /*Cor do link depois que clica nele*/
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: coral;
+  padding: 10px;
+  color: blue;
+  /*Cor do link depois que clica nele*/
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    /*Cor do texto*/
-    margin: 15px;
-    /*Espaço entre os links*/
-    font-size: 20px;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  /*Cor do texto*/
+  margin: 15px;
+  /*Espaço entre os links*/
+  font-size: 20px;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: grey;
+  color: grey;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    /*Para adicionar uma linha/borda abaixo -> border-bottom: 2px solid #007bff;*/
-    color: coral;
-    text-align: center;
-    padding: 30px;
-    font-size: 50px;
+  /*Para adicionar uma linha/borda abaixo -> border-bottom: 2px solid #007bff;*/
+  color: coral;
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
 }
 
 h2 {
-    color: coral;
-    text-align: center;
+  color: coral;
+  text-align: center;
 }
 
 .back_titulo {
-    color: white;
-    background-color: coral;
-    padding: 8px;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-color: coral;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 p {
-    font-size: 20px;
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    line-height: 1.6;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  line-height: 1.6;
 }
 
 .container_2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .container_3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .wh {
-    width: 650px;
-    height: 400px;
+  width: 650px;
+  height: 400px;
 }
 
 #menu_topicos li {
-    display: inline;
-    padding: 20px;
-    text-align: center;
+  display: inline;
+  padding: 20px;
+  text-align: center;
 }
 
 #menu_topicos li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
 #menu_topicos li a:hover {
-    color: grey;
+  color: grey;
 }
 
 .font_bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .question {
-    margin: 15px;
+  margin: 15px;
 }
 
 .question label {
-    display: block;
-    font-size: 17px;
-    margin-bottom: 5px;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 5px;
 }
 
 .question input[type="text"],
 .question input[type="email"],
 .question textarea {
-    width: 100%;
-    padding: 6px;
-    border: 1px solid grey;
-    border-radius: 4px;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid grey;
+  border-radius: 4px;
 }
 
 .question button {
-    display: block;
-    width: 40%;
-    padding: 10px;
-    background-color: coral;
-    color: #fff;
-    border: none;
-    font-size: 15px;
-    border-radius: 4px;
-    cursor: pointer;
+  display: block;
+  width: 40%;
+  padding: 10px;
+  background-color: coral;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .question button:hover {
-    background-color: rgb(252, 184, 159);
+  background-color: rgb(252, 184, 159);
 }
 
 #voltar_topo a {
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: underline;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 #voltar_topo a:hover {
-    color: grey;
+  color: grey;
 }
 
 /*Estilos da página caracteristicas.html*/
 
 #topicos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 17px;
-    line-height: 1.6;
-    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-top: 15px;
 }
